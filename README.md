@@ -9,18 +9,19 @@
 
 * Test Case Parameter
   * Global Variable
-    * `base_url : api.themoviedb.org`
-    * `my_token : Bearer token`
-  
+    ```
+     base_url : `api.themoviedb.org`
+     my_token : `Bearer token`
   * Thread Group
-    * `User : 100` 
-    * `Delay : 50` 
-    * `Loop : 10`
-  
+    ```
+     User : 100 
+     Delay : 50 
+     Loop : 10
   * Path Target
-    * `/3/movie/top_rated`
-    * `/3/movie/upcoming`
-    * `/3/movie/{movie_id}/rating`
+     ```
+      /3/movie/top_rated`
+      /3/movie/upcoming
+      /3/movie/{movie_id}/rating`
   * Http request
     * Get
       * `top_rated`
